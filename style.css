@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial' sans-serif;
+    font-size: large;
+    background-color: #333;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+#header_main {
+    padding-left: 25vw;
+    padding-right: 25vw;
+    padding-bottom: 2vh;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.profile-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+  
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+#projects {
+    padding-bottom: 10vh;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#main {
+    align-items: center;
+    word-spacing: 3px;
+    line-height: 23px;
+    padding-left: 25vw;
+    padding-right: 25vw;
+}
+
+#contact {
+    color: #fff;
+}
